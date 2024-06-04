@@ -1,1 +1,1 @@
-tecnical test api
+technical test api
