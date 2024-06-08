@@ -1,6 +1,8 @@
 import Sequelize from "sequelize";
 
-export const sequelize = new Sequelize("my_bank", "root", "admin", {
+const sequelize = new Sequelize("my_bank", "root", "admin", {
   host: "localhost",
   dialect: "mysql",
 });
+
+export default sequelize;
